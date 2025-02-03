@@ -28,9 +28,22 @@ final class ContentViewModel: ObservableObject {
         MyNavigationItem(title: "GridView Ref", destination: AnyView(GridRefUIView())),
         MyNavigationItem(title: "Simple Alerts", destination: AnyView(SimpleAlertRefView())),
         MyNavigationItem(title: "Complex Alerts", destination: AnyView(ComplexAlertView())),
-        MyNavigationItem(title: "Coordinator Sample", destination: AnyView(SimpleContainerUIView()))
-        
+        MyNavigationItem(title: "Coordinator Sample", destination: AnyView(SimpleContainerUIView())),
+        MyNavigationItem(title: "Automatic Grammar Agreement", destination: AnyView(AutomaticGrammarAgreementRefView())),
+        MyNavigationItem(title: "UIKit TableView", destination: AnyView(LazyLoadingTableView()))
         
     ]
     
+    
 }
+/*List {
+    NavigationLink("Button Types", destination: { ButtonTypesView() })
+    NavigationLink("Text & Labels", destination: { TextAndLabelsUIView() })
+    NavigationLink("NavigationView Ref", destination: { NavigationViewREFView() })
+    NavigationLink("NavigationStack Ref", destination: { NavigationStackRefUIView() })
+    NavigationLink("NavigationSplitView Ref", destination: { NavSplitAltRefView() })
+    NavigationLink("GridView Ref", destination: { GridRefUIView() })
+    NavigationLink("Simple Alerts", destination: { SimpleAlertRefView() })
+    NavigationLink("Complex Alerts", destination: { ComplexAlertView() })
+    NavigationLink("Coordinator Sample", destination: { SimpleContainerUIView() })
+}*/

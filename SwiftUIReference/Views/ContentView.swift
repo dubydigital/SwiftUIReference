@@ -106,19 +106,6 @@ struct ContentView: View {
                         NavigationLink(item.title, destination: item.destination)
                     }
                     .navigationTitle("Reference")
-                    
-                    /*List {
-                        NavigationLink("Button Types", destination: { ButtonTypesView() })
-                        NavigationLink("Text & Labels", destination: { TextAndLabelsUIView() })
-                        NavigationLink("NavigationView Ref", destination: { NavigationViewREFView() })
-                        NavigationLink("NavigationStack Ref", destination: { NavigationStackRefUIView() })
-                        NavigationLink("NavigationSplitView Ref", destination: { NavSplitAltRefView() })
-                        NavigationLink("GridView Ref", destination: { GridRefUIView() })
-                        NavigationLink("Simple Alerts", destination: { SimpleAlertRefView() })
-                        NavigationLink("Complex Alerts", destination: { ComplexAlertView() })
-                        NavigationLink("Coordinator Sample", destination: { SimpleContainerUIView() })
-                    }*/
-                                       
                     .background(.blue.opacity(0.5))
                     .cornerRadius(10)
                     .scrollContentBackground(.hidden)
@@ -130,6 +117,7 @@ struct ContentView: View {
             } // ZStack
         }// NavigaionStack
     }
+    
 }
 
 #Preview {

@@ -69,6 +69,24 @@
 		CBDD0A892D5110D800756725 /* AccessibilityRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */; };
 		CBDD0A8A2D5110D800756725 /* AccessibilityRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */; };
 		CBDD0A8B2D5110D800756725 /* AccessibilityRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */; };
+		CBDD0A8E2D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A8D2D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift */; };
+		CBDD0A8F2D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A8D2D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift */; };
+		CBDD0A902D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A8D2D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift */; };
+		CBDD0A922D5123E200756725 /* LazyLoadingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A912D5123E200756725 /* LazyLoadingTableView.swift */; };
+		CBDD0A932D5123E200756725 /* LazyLoadingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A912D5123E200756725 /* LazyLoadingTableView.swift */; };
+		CBDD0A942D5123E200756725 /* LazyLoadingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A912D5123E200756725 /* LazyLoadingTableView.swift */; };
+		CBDD0A962D51245300756725 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A952D51245300756725 /* MyTableViewController.swift */; };
+		CBDD0A972D51245300756725 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A952D51245300756725 /* MyTableViewController.swift */; };
+		CBDD0A982D51245300756725 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A952D51245300756725 /* MyTableViewController.swift */; };
+		CBDD0AA02D5129DE00756725 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A9F2D5129DE00756725 /* MusicViewModel.swift */; };
+		CBDD0AA12D5129DE00756725 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A9F2D5129DE00756725 /* MusicViewModel.swift */; };
+		CBDD0AA22D5129DE00756725 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A9F2D5129DE00756725 /* MusicViewModel.swift */; };
+		CBDD0AA42D512B3C00756725 /* MusicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0AA32D512B3C00756725 /* MusicListView.swift */; };
+		CBDD0AA52D512B3C00756725 /* MusicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0AA32D512B3C00756725 /* MusicListView.swift */; };
+		CBDD0AA62D512B3C00756725 /* MusicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0AA32D512B3C00756725 /* MusicListView.swift */; };
+		CBDD0AA92D512E6C00756725 /* PropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0AA82D512E6C00756725 /* PropertyWrapperView.swift */; };
+		CBDD0AAA2D512E6C00756725 /* PropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0AA82D512E6C00756725 /* PropertyWrapperView.swift */; };
+		CBDD0AAB2D512E6C00756725 /* PropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0AA82D512E6C00756725 /* PropertyWrapperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +136,12 @@
 		CBDD0A7F2D50F94400756725 /* ListSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSampleView.swift; sourceTree = "<group>"; };
 		CBDD0A832D510DA700756725 /* LazyHGridRefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridRefView.swift; sourceTree = "<group>"; };
 		CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityRefView.swift; sourceTree = "<group>"; };
+		CBDD0A8D2D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticGrammarAgreementRefView.swift; sourceTree = "<group>"; };
+		CBDD0A912D5123E200756725 /* LazyLoadingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadingTableView.swift; sourceTree = "<group>"; };
+		CBDD0A952D51245300756725 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		CBDD0A9F2D5129DE00756725 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		CBDD0AA32D512B3C00756725 /* MusicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListView.swift; sourceTree = "<group>"; };
+		CBDD0AA82D512E6C00756725 /* PropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +193,11 @@
 			isa = PBXGroup;
 			children = (
 				CBC920412CC9E69500BF20EE /* SwiftUIReferenceApp.swift */,
-				CBDD0A872D5110C000756725 /* Accessibility */,
+				CBDD0AA72D512E5A00756725 /* PropertyWrappers */,
+				CBDD0A9A2D51285C00756725 /* Network */,
 				CBDD0A7C2D50F42400756725 /* UIKit */,
+				CBDD0A8C2D51189400756725 /* CoolFeatures */,
+				CBDD0A872D5110C000756725 /* Accessibility */,
 				CBDD0A552D5012DC00756725 /* Grids Lists */,
 				CBDD0A672D506AA300756725 /* NavigationView */,
 				CBDD0A502D4F1C4600756725 /* NavigationStack */,
@@ -214,9 +241,7 @@
 		CBDD0A392D4EBCD800756725 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				CBDD0A3F2D4EBEA600756725 /* SimpleVC.swift */,
-				CBDD0A432D4EC25D00756725 /* SimpleUIView.swift */,
-				CBDD0A472D4EC34200756725 /* SimpleContainerUIView.swift */,
+				CBDD0A992D5127FA00756725 /* SimpleCoordinatorS */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -296,16 +321,18 @@
 		CBDD0A7C2D50F42400756725 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				CBDD0A7D2D50F42900756725 /* NetworkTableView */,
+				CBDD0A7D2D50F42900756725 /* LazyLoadingTableView */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		CBDD0A7D2D50F42900756725 /* NetworkTableView */ = {
+		CBDD0A7D2D50F42900756725 /* LazyLoadingTableView */ = {
 			isa = PBXGroup;
 			children = (
+				CBDD0A912D5123E200756725 /* LazyLoadingTableView.swift */,
+				CBDD0A952D51245300756725 /* MyTableViewController.swift */,
 			);
-			path = NetworkTableView;
+			path = LazyLoadingTableView;
 			sourceTree = "<group>";
 		};
 		CBDD0A872D5110C000756725 /* Accessibility */ = {
@@ -314,6 +341,41 @@
 				CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */,
 			);
 			path = Accessibility;
+			sourceTree = "<group>";
+		};
+		CBDD0A8C2D51189400756725 /* CoolFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				CBDD0A8D2D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift */,
+			);
+			path = CoolFeatures;
+			sourceTree = "<group>";
+		};
+		CBDD0A992D5127FA00756725 /* SimpleCoordinatorS */ = {
+			isa = PBXGroup;
+			children = (
+				CBDD0A3F2D4EBEA600756725 /* SimpleVC.swift */,
+				CBDD0A432D4EC25D00756725 /* SimpleUIView.swift */,
+				CBDD0A472D4EC34200756725 /* SimpleContainerUIView.swift */,
+			);
+			path = SimpleCoordinatorS;
+			sourceTree = "<group>";
+		};
+		CBDD0A9A2D51285C00756725 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CBDD0A9F2D5129DE00756725 /* MusicViewModel.swift */,
+				CBDD0AA32D512B3C00756725 /* MusicListView.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CBDD0AA72D512E5A00756725 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				CBDD0AA82D512E6C00756725 /* PropertyWrapperView.swift */,
+			);
+			path = PropertyWrappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,12 +513,14 @@
 				CBDD0A732D508C5100756725 /* ButtonTypesView.swift in Sources */,
 				CBDD0A812D50F94400756725 /* ListSampleView.swift in Sources */,
 				CBCB538B2D4D4D5C0016C2A9 /* TaskReferenceView.swift in Sources */,
+				CBDD0AA12D5129DE00756725 /* MusicViewModel.swift in Sources */,
 				CBDD0A5C2D50252200756725 /* NavStackRefUIView.swift in Sources */,
 				CBDD0A5F2D50293000756725 /* NavSplitRefUIView.swift in Sources */,
 				CBDD0A6D2D506CEE00756725 /* DismissButtonView.swift in Sources */,
 				CBDD0A452D4EC25D00756725 /* SimpleUIView.swift in Sources */,
 				CB4FEF222D4BF67800B0CDA1 /* SimpleAlertRefView.swift in Sources */,
 				CBDD0A572D5012F800756725 /* GridRefUIView.swift in Sources */,
+				CBDD0A942D5123E200756725 /* LazyLoadingTableView.swift in Sources */,
 				CBDD0A4A2D4EC34200756725 /* SimpleContainerUIView.swift in Sources */,
 				CBC920442CC9E69500BF20EE /* ContentView.swift in Sources */,
 				CBDD0A402D4EBEA600756725 /* SimpleVC.swift in Sources */,
@@ -464,9 +528,13 @@
 				CBDD0A852D510DA700756725 /* LazyHGridRefView.swift in Sources */,
 				CBDD0A792D50946B00756725 /* ContentViewModel.swift in Sources */,
 				CBDD0A4E2D4F14F800756725 /* TextAndLabelsUIView.swift in Sources */,
+				CBDD0A972D51245300756725 /* MyTableViewController.swift in Sources */,
 				CBDD0A8A2D5110D800756725 /* AccessibilityRefView.swift in Sources */,
 				CBDD0A692D506ACC00756725 /* NavigationViewREFView.swift in Sources */,
 				CBDD0A642D50333F00756725 /* NavSplitAltRefView.swift in Sources */,
+				CBDD0AA42D512B3C00756725 /* MusicListView.swift in Sources */,
+				CBDD0A8E2D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift in Sources */,
+				CBDD0AAA2D512E6C00756725 /* PropertyWrapperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +545,7 @@
 				CBDD0A482D4EC34200756725 /* SimpleContainerUIView.swift in Sources */,
 				CBDD0A6E2D506CEE00756725 /* DismissButtonView.swift in Sources */,
 				CBDD0A6A2D506ACC00756725 /* NavigationViewREFView.swift in Sources */,
+				CBDD0AA22D5129DE00756725 /* MusicViewModel.swift in Sources */,
 				CBDD0A892D5110D800756725 /* AccessibilityRefView.swift in Sources */,
 				CBDD0A412D4EBEA600756725 /* SimpleVC.swift in Sources */,
 				CBDD0A592D5012F800756725 /* GridRefUIView.swift in Sources */,
@@ -487,12 +556,17 @@
 				CB4FEF252D4BFE9000B0CDA1 /* ComplexAlertView.swift in Sources */,
 				CBDD0A5D2D50252200756725 /* NavStackRefUIView.swift in Sources */,
 				CBC920532CC9E69600BF20EE /* SwiftUIReferenceTests.swift in Sources */,
+				CBDD0AA62D512B3C00756725 /* MusicListView.swift in Sources */,
 				CBDD0A542D4F1C6E00756725 /* NavigationStackRefUIView.swift in Sources */,
 				CBDD0A842D510DA700756725 /* LazyHGridRefView.swift in Sources */,
+				CBDD0A982D51245300756725 /* MyTableViewController.swift in Sources */,
+				CBDD0A8F2D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift in Sources */,
 				CBDD0A722D508C5100756725 /* ButtonTypesView.swift in Sources */,
+				CBDD0AA92D512E6C00756725 /* PropertyWrapperView.swift in Sources */,
 				CBCB538C2D4D4D5C0016C2A9 /* TaskReferenceView.swift in Sources */,
 				CBDD0A822D50F94400756725 /* ListSampleView.swift in Sources */,
 				CBDD0A4F2D4F14F800756725 /* TextAndLabelsUIView.swift in Sources */,
+				CBDD0A932D5123E200756725 /* LazyLoadingTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,11 +586,17 @@
 				CBDD0A652D50333F00756725 /* NavSplitAltRefView.swift in Sources */,
 				CBDD0A6B2D506ACC00756725 /* NavigationViewREFView.swift in Sources */,
 				CBDD0A6F2D506CEE00756725 /* DismissButtonView.swift in Sources */,
+				CBDD0AA02D5129DE00756725 /* MusicViewModel.swift in Sources */,
 				CBDD0A442D4EC25D00756725 /* SimpleUIView.swift in Sources */,
 				CBDD0A712D508C5100756725 /* ButtonTypesView.swift in Sources */,
+				CBDD0AAB2D512E6C00756725 /* PropertyWrapperView.swift in Sources */,
+				CBDD0AA52D512B3C00756725 /* MusicListView.swift in Sources */,
+				CBDD0A902D5118BE00756725 /* AutomaticGrammarAgreementRefView.swift in Sources */,
 				CBDD0A602D50293000756725 /* NavSplitRefUIView.swift in Sources */,
+				CBDD0A962D51245300756725 /* MyTableViewController.swift in Sources */,
 				CBDD0A492D4EC34200756725 /* SimpleContainerUIView.swift in Sources */,
 				CBDD0A802D50F94400756725 /* ListSampleView.swift in Sources */,
+				CBDD0A922D5123E200756725 /* LazyLoadingTableView.swift in Sources */,
 				CBDD0A8B2D5110D800756725 /* AccessibilityRefView.swift in Sources */,
 				CBDD0A862D510DA700756725 /* LazyHGridRefView.swift in Sources */,
 				CBCB538D2D4D4D5C0016C2A9 /* TaskReferenceView.swift in Sources */,
