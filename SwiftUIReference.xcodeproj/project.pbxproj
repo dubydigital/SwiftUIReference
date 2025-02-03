@@ -54,6 +54,9 @@
 		CBDD0A6D2D506CEE00756725 /* DismissButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A6C2D506CEE00756725 /* DismissButtonView.swift */; };
 		CBDD0A6E2D506CEE00756725 /* DismissButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A6C2D506CEE00756725 /* DismissButtonView.swift */; };
 		CBDD0A6F2D506CEE00756725 /* DismissButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A6C2D506CEE00756725 /* DismissButtonView.swift */; };
+		CBDD0A712D508C5100756725 /* ButtonTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A702D508C5100756725 /* ButtonTypesView.swift */; };
+		CBDD0A722D508C5100756725 /* ButtonTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A702D508C5100756725 /* ButtonTypesView.swift */; };
+		CBDD0A732D508C5100756725 /* ButtonTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A702D508C5100756725 /* ButtonTypesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +101,7 @@
 		CBDD0A632D50333F00756725 /* NavSplitAltRefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitAltRefView.swift; sourceTree = "<group>"; };
 		CBDD0A682D506ACC00756725 /* NavigationViewREFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewREFView.swift; sourceTree = "<group>"; };
 		CBDD0A6C2D506CEE00756725 /* DismissButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButtonView.swift; sourceTree = "<group>"; };
+		CBDD0A702D508C5100756725 /* ButtonTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTypesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +217,7 @@
 			children = (
 				CBC920432CC9E69500BF20EE /* ContentView.swift */,
 				CBDD0A6C2D506CEE00756725 /* DismissButtonView.swift */,
+				CBDD0A702D508C5100756725 /* ButtonTypesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 			files = (
 				CB4FEF242D4BFE9000B0CDA1 /* ComplexAlertView.swift in Sources */,
 				CBDD0A522D4F1C6E00756725 /* NavigationStackRefUIView.swift in Sources */,
+				CBDD0A732D508C5100756725 /* ButtonTypesView.swift in Sources */,
 				CBCB538B2D4D4D5C0016C2A9 /* TaskReferenceView.swift in Sources */,
 				CBDD0A5C2D50252200756725 /* NavStackRefUIView.swift in Sources */,
 				CBDD0A5F2D50293000756725 /* NavSplitRefUIView.swift in Sources */,
@@ -432,6 +438,7 @@
 				CBDD0A5D2D50252200756725 /* NavStackRefUIView.swift in Sources */,
 				CBC920532CC9E69600BF20EE /* SwiftUIReferenceTests.swift in Sources */,
 				CBDD0A542D4F1C6E00756725 /* NavigationStackRefUIView.swift in Sources */,
+				CBDD0A722D508C5100756725 /* ButtonTypesView.swift in Sources */,
 				CBCB538C2D4D4D5C0016C2A9 /* TaskReferenceView.swift in Sources */,
 				CBDD0A4F2D4F14F800756725 /* TextAndLabelsUIView.swift in Sources */,
 			);
@@ -453,6 +460,7 @@
 				CBDD0A6B2D506ACC00756725 /* NavigationViewREFView.swift in Sources */,
 				CBDD0A6F2D506CEE00756725 /* DismissButtonView.swift in Sources */,
 				CBDD0A442D4EC25D00756725 /* SimpleUIView.swift in Sources */,
+				CBDD0A712D508C5100756725 /* ButtonTypesView.swift in Sources */,
 				CBDD0A602D50293000756725 /* NavSplitRefUIView.swift in Sources */,
 				CBDD0A492D4EC34200756725 /* SimpleContainerUIView.swift in Sources */,
 				CBCB538D2D4D4D5C0016C2A9 /* TaskReferenceView.swift in Sources */,
@@ -610,6 +618,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,6 +648,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -42,6 +42,15 @@ struct NavigationViewREFView: View {
                     .frame(width: 200, height: 50)
                     .background(Color.blue)
                     .cornerRadius(10)
+                
+                
+                // Link
+                Link("Pre-K-Moji Site", destination: URL(string: "https://prekmoji.com") ?? URL(string: "https://apple.com")!)
+                    .tint(Color.white)
+                    .padding(10)
+                    .frame(width: 200, height: 50)
+                    .background(Color.blue)
+                    .cornerRadius(10)
             }
             .navigationTitle("NavigationView Sample")
             // Shows Sheet

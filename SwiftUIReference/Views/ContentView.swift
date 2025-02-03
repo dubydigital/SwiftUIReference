@@ -9,61 +9,82 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            Rectangle()
-                .fill(Color.green)
+        NavigationStack {
+            ZStack {
+                // LinearGradient Sample Background
+                LinearGradient(gradient: Gradient(colors: [Color.blue, Color.white]),
+                               startPoint: .topLeading,
+                               endPoint: .bottomTrailing)
                 .edgesIgnoringSafeArea(.all)
-                .cornerRadius(20)
-                .padding(50)
-            VStack {
-                HStack {
-                    Image("EGA", label: Text("Eagle Globe And Anchor"))
-                        .resizable()
-                        .frame(width: 200, height: 200, alignment: .center)
-                        .cornerRadius(20)
+                
+                // Rectangle with Blur
+                Rectangle()
+                    .fill(Color.white.opacity(0.3) )
+                    .edgesIgnoringSafeArea(.all)
+                    .cornerRadius(20)
+                    .padding(10)
+                    .blur(radius: 10)
+                                
+                VStack {
+                    // Text Sample
+                    Text("SwiftUI Reference").font(.system(size: 40))
+                        .foregroundColor(.white)
                         .padding()
-                        .onTapGesture {
-                            print("EGA Pressed")
-                        }
                     
-                    Image(systemName: "globe")
-                        .resizable()
-                        .frame(width: 200, height:200, alignment: .center)
-                    //                .imageScale(.small)
-                        .foregroundStyle(.tint)
-                        .padding()
-                        .onTapGesture {
-                            print("Globe Pressed")
-                        }
+                    // Label
+                    Label("Label system image", systemImage: "cart.fill")
+                        .font(.title2)
+                        .foregroundColor(.blue)
                     
-                } // HStack
-                
-                // Lable Sample
-                Label("Add to Cart", systemImage: "cart.fill")
-                    .font(.largeTitle)
-                
-                // Text Sample
-                Text("Hello, world!").font(.system(size: 50))
-                    .padding()
-                
-                // Button Sample 1
-                Button("Button Type 1") {
-                    print("Button Pressed")
-                }
-                .font(.largeTitle)
+                    // HStack
+                    HStack {
+                        Image("EGA", label: Text("Eagle Globe And Anchor"))
+                            .resizable()
+                            .frame(width: 50, height: 50, alignment: .center)
+                            .cornerRadius(20)
+                            .padding()
+                            .onTapGesture {
+                                print("EGA Pressed")
+                            }
+                        
+                        Image(systemName: "globe")
+                            .resizable()
+                            .frame(width: 50, height:50, alignment: .center)
+                        //                .imageScale(.small)
+                            .foregroundStyle(.tint)
+                            .padding()
+                            .onTapGesture {
+                                print("Globe Pressed")
+                            }
+                        
+                    } // HStack
+                    
+                    List {
+                        NavigationLink("Button Types", destination: { ButtonTypesView() })
+                        NavigationLink("Text & Labels", destination: { TextAndLabelsUIView() })
+                        NavigationLink("NavigationView Ref", destination: { NavigationViewREFView() })
+                        NavigationLink("NavigationStack Ref", destination: { NavigationStackRefUIView() })
+                        NavigationLink("NavigationSplitView Ref", destination: { NavSplitAltRefView() })
+                        NavigationLink("GridView Ref", destination: { GridRefUIView() })
+                        
+                        NavigationLink("Simple Alerts", destination: { SimpleAlertRefView() })
+                        NavigationLink("Complex Alerts", destination: { ComplexAlertView() })
+                        NavigationLink("Coordinator Sample", destination: { SimpleContainerUIView() })
+                                                
+                    }
+                                       
+                    .background(.blue.opacity(0.5))
+                    .cornerRadius(10)
+                    .scrollContentBackground(.hidden)
+                    
+            
+                    
+                    Spacer()
+                    
+                } // VStack
                 .padding()
-                
-                // Button Sample 2
-                Button {
-                    print("Button Pressed")
-                } label: {
-                    Text("Button Type 2")
-                        .font(.largeTitle)
-                }
-                
-            } // VStack
-            .padding()
-        } // ZStack
+            } // ZStack
+        }// NavigaionStack
     }
 }
 

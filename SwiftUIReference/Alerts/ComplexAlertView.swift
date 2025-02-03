@@ -49,15 +49,22 @@ struct InsideView: View {
                     alertItem = AlertContext.alert1
                 } label: {
                     Text("Alert 1")
+                        .padding()
+                        .background(Color.white)
                         .foregroundColor(.black)
                         .font(.largeTitle)
+                        .cornerRadius(10)
+                    
                 }.padding()
                 Button {
                     alertItem = AlertContext.alert2
                 } label: {
                     Text("Alert 2")
+                        .padding()
+                        .background(Color.white)
                         .foregroundColor(.black)
                         .font(.largeTitle)
+                        .cornerRadius(10)
                 }.padding()
             }
         }
