@@ -71,6 +71,9 @@ struct DetailView: View {
     }
 }
 
+
+
+
 #Preview {
     NavStackRefUIView()
 }

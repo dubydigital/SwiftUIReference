@@ -57,6 +57,18 @@
 		CBDD0A712D508C5100756725 /* ButtonTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A702D508C5100756725 /* ButtonTypesView.swift */; };
 		CBDD0A722D508C5100756725 /* ButtonTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A702D508C5100756725 /* ButtonTypesView.swift */; };
 		CBDD0A732D508C5100756725 /* ButtonTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A702D508C5100756725 /* ButtonTypesView.swift */; };
+		CBDD0A792D50946B00756725 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A782D50946B00756725 /* ContentViewModel.swift */; };
+		CBDD0A7A2D50946B00756725 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A782D50946B00756725 /* ContentViewModel.swift */; };
+		CBDD0A7B2D50946B00756725 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A782D50946B00756725 /* ContentViewModel.swift */; };
+		CBDD0A802D50F94400756725 /* ListSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A7F2D50F94400756725 /* ListSampleView.swift */; };
+		CBDD0A812D50F94400756725 /* ListSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A7F2D50F94400756725 /* ListSampleView.swift */; };
+		CBDD0A822D50F94400756725 /* ListSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A7F2D50F94400756725 /* ListSampleView.swift */; };
+		CBDD0A842D510DA700756725 /* LazyHGridRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A832D510DA700756725 /* LazyHGridRefView.swift */; };
+		CBDD0A852D510DA700756725 /* LazyHGridRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A832D510DA700756725 /* LazyHGridRefView.swift */; };
+		CBDD0A862D510DA700756725 /* LazyHGridRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A832D510DA700756725 /* LazyHGridRefView.swift */; };
+		CBDD0A892D5110D800756725 /* AccessibilityRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */; };
+		CBDD0A8A2D5110D800756725 /* AccessibilityRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */; };
+		CBDD0A8B2D5110D800756725 /* AccessibilityRefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +114,10 @@
 		CBDD0A682D506ACC00756725 /* NavigationViewREFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewREFView.swift; sourceTree = "<group>"; };
 		CBDD0A6C2D506CEE00756725 /* DismissButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButtonView.swift; sourceTree = "<group>"; };
 		CBDD0A702D508C5100756725 /* ButtonTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTypesView.swift; sourceTree = "<group>"; };
+		CBDD0A782D50946B00756725 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		CBDD0A7F2D50F94400756725 /* ListSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSampleView.swift; sourceTree = "<group>"; };
+		CBDD0A832D510DA700756725 /* LazyHGridRefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridRefView.swift; sourceTree = "<group>"; };
+		CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityRefView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				CBC920412CC9E69500BF20EE /* SwiftUIReferenceApp.swift */,
+				CBDD0A872D5110C000756725 /* Accessibility */,
+				CBDD0A7C2D50F42400756725 /* UIKit */,
 				CBDD0A552D5012DC00756725 /* Grids Lists */,
 				CBDD0A672D506AA300756725 /* NavigationView */,
 				CBDD0A502D4F1C4600756725 /* NavigationStack */,
@@ -215,6 +233,7 @@
 		CBDD0A3B2D4EBCFE00756725 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CBDD0A782D50946B00756725 /* ContentViewModel.swift */,
 				CBC920432CC9E69500BF20EE /* ContentView.swift */,
 				CBDD0A6C2D506CEE00756725 /* DismissButtonView.swift */,
 				CBDD0A702D508C5100756725 /* ButtonTypesView.swift */,
@@ -251,6 +270,8 @@
 			isa = PBXGroup;
 			children = (
 				CBDD0A562D5012F800756725 /* GridRefUIView.swift */,
+				CBDD0A832D510DA700756725 /* LazyHGridRefView.swift */,
+				CBDD0A7F2D50F94400756725 /* ListSampleView.swift */,
 			);
 			path = "Grids Lists";
 			sourceTree = "<group>";
@@ -270,6 +291,29 @@
 				CBDD0A682D506ACC00756725 /* NavigationViewREFView.swift */,
 			);
 			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		CBDD0A7C2D50F42400756725 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CBDD0A7D2D50F42900756725 /* NetworkTableView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		CBDD0A7D2D50F42900756725 /* NetworkTableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkTableView;
+			sourceTree = "<group>";
+		};
+		CBDD0A872D5110C000756725 /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				CBDD0A882D5110D800756725 /* AccessibilityRefView.swift */,
+			);
+			path = Accessibility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +449,7 @@
 				CB4FEF242D4BFE9000B0CDA1 /* ComplexAlertView.swift in Sources */,
 				CBDD0A522D4F1C6E00756725 /* NavigationStackRefUIView.swift in Sources */,
 				CBDD0A732D508C5100756725 /* ButtonTypesView.swift in Sources */,
+				CBDD0A812D50F94400756725 /* ListSampleView.swift in Sources */,
 				CBCB538B2D4D4D5C0016C2A9 /* TaskReferenceView.swift in Sources */,
 				CBDD0A5C2D50252200756725 /* NavStackRefUIView.swift in Sources */,
 				CBDD0A5F2D50293000756725 /* NavSplitRefUIView.swift in Sources */,
@@ -416,7 +461,10 @@
 				CBC920442CC9E69500BF20EE /* ContentView.swift in Sources */,
 				CBDD0A402D4EBEA600756725 /* SimpleVC.swift in Sources */,
 				CBC920422CC9E69500BF20EE /* SwiftUIReferenceApp.swift in Sources */,
+				CBDD0A852D510DA700756725 /* LazyHGridRefView.swift in Sources */,
+				CBDD0A792D50946B00756725 /* ContentViewModel.swift in Sources */,
 				CBDD0A4E2D4F14F800756725 /* TextAndLabelsUIView.swift in Sources */,
+				CBDD0A8A2D5110D800756725 /* AccessibilityRefView.swift in Sources */,
 				CBDD0A692D506ACC00756725 /* NavigationViewREFView.swift in Sources */,
 				CBDD0A642D50333F00756725 /* NavSplitAltRefView.swift in Sources */,
 			);
@@ -429,17 +477,21 @@
 				CBDD0A482D4EC34200756725 /* SimpleContainerUIView.swift in Sources */,
 				CBDD0A6E2D506CEE00756725 /* DismissButtonView.swift in Sources */,
 				CBDD0A6A2D506ACC00756725 /* NavigationViewREFView.swift in Sources */,
+				CBDD0A892D5110D800756725 /* AccessibilityRefView.swift in Sources */,
 				CBDD0A412D4EBEA600756725 /* SimpleVC.swift in Sources */,
 				CBDD0A592D5012F800756725 /* GridRefUIView.swift in Sources */,
 				CBDD0A612D50293000756725 /* NavSplitRefUIView.swift in Sources */,
 				CBDD0A462D4EC25D00756725 /* SimpleUIView.swift in Sources */,
 				CBDD0A662D50333F00756725 /* NavSplitAltRefView.swift in Sources */,
+				CBDD0A7A2D50946B00756725 /* ContentViewModel.swift in Sources */,
 				CB4FEF252D4BFE9000B0CDA1 /* ComplexAlertView.swift in Sources */,
 				CBDD0A5D2D50252200756725 /* NavStackRefUIView.swift in Sources */,
 				CBC920532CC9E69600BF20EE /* SwiftUIReferenceTests.swift in Sources */,
 				CBDD0A542D4F1C6E00756725 /* NavigationStackRefUIView.swift in Sources */,
+				CBDD0A842D510DA700756725 /* LazyHGridRefView.swift in Sources */,
 				CBDD0A722D508C5100756725 /* ButtonTypesView.swift in Sources */,
 				CBCB538C2D4D4D5C0016C2A9 /* TaskReferenceView.swift in Sources */,
+				CBDD0A822D50F94400756725 /* ListSampleView.swift in Sources */,
 				CBDD0A4F2D4F14F800756725 /* TextAndLabelsUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +503,7 @@
 				CBDD0A532D4F1C6E00756725 /* NavigationStackRefUIView.swift in Sources */,
 				CBDD0A4D2D4F14F800756725 /* TextAndLabelsUIView.swift in Sources */,
 				CBC9205F2CC9E69600BF20EE /* SwiftUIReferenceUITestsLaunchTests.swift in Sources */,
+				CBDD0A7B2D50946B00756725 /* ContentViewModel.swift in Sources */,
 				CBDD0A5B2D50252200756725 /* NavStackRefUIView.swift in Sources */,
 				CB4FEF262D4BFE9000B0CDA1 /* ComplexAlertView.swift in Sources */,
 				CBDD0A582D5012F800756725 /* GridRefUIView.swift in Sources */,
@@ -463,6 +516,9 @@
 				CBDD0A712D508C5100756725 /* ButtonTypesView.swift in Sources */,
 				CBDD0A602D50293000756725 /* NavSplitRefUIView.swift in Sources */,
 				CBDD0A492D4EC34200756725 /* SimpleContainerUIView.swift in Sources */,
+				CBDD0A802D50F94400756725 /* ListSampleView.swift in Sources */,
+				CBDD0A8B2D5110D800756725 /* AccessibilityRefView.swift in Sources */,
+				CBDD0A862D510DA700756725 /* LazyHGridRefView.swift in Sources */,
 				CBCB538D2D4D4D5C0016C2A9 /* TaskReferenceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,7 +25,7 @@ struct NavigationViewREFView: View {
                 .cornerRadius(10)
                 
                 // Button to show full screen sample
-                Button("Show Sheet") {
+                Button("Show Full Screen") {
                     isShowingFullScreen = true
                 }
                 .padding(10)
