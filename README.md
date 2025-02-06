@@ -10,5 +10,5 @@ SWift and Swift UI quick reference guide.
 -->
 
 <p align="center">
-  <img src="/screens/SwiftUIRef.png" alt="SwiftUI Reference" width="200">
+  <img src="/Screens/SwiftUIRef.png" alt="SwiftUI Reference" width="600">
 </p>
