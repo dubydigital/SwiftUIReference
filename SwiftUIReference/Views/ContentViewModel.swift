@@ -14,28 +14,27 @@ struct MyNavigationItem: Identifiable {
     let destination: AnyView
 }
 
-
 final class ContentViewModel: ObservableObject {
     
     let navigationItems: [MyNavigationItem] = [
+        MyNavigationItem(title: "Colors Sample", destination: AnyView(ColorsSampleView())),
         MyNavigationItem(title: "List Sample", destination: AnyView(ListSampleView())),
         MyNavigationItem(title: "Grid Sample", destination: AnyView(GridRefUIView())),        
         MyNavigationItem(title: "Button Types", destination: AnyView(ButtonTypesView())),
         MyNavigationItem(title: "Text & Labels", destination: AnyView(TextAndLabelsUIView())),
         MyNavigationItem(title: "NavigationView Ref", destination: AnyView(NavigationViewREFView())),
-        MyNavigationItem(title: "NavigationStack Ref", destination: AnyView(NavigationStackRefUIView())),
+        MyNavigationItem(title: "NavigationStack Ref", destination: AnyView(NavigationStackRef())),
         MyNavigationItem(title: "NavigationSplitView Ref", destination: AnyView(NavSplitAltRefView())),
         MyNavigationItem(title: "GridView Ref", destination: AnyView(GridRefUIView())),
         MyNavigationItem(title: "Simple Alerts", destination: AnyView(SimpleAlertRefView())),
         MyNavigationItem(title: "Complex Alerts", destination: AnyView(ComplexAlertView())),
         MyNavigationItem(title: "Coordinator Sample", destination: AnyView(SimpleContainerUIView())),
         MyNavigationItem(title: "Automatic Grammar Agreement", destination: AnyView(AutomaticGrammarAgreementRefView())),
-        MyNavigationItem(title: "UIKit TableView", destination: AnyView(LazyLoadingTableView()))
-        
+        MyNavigationItem(title: "UIKit TableView", destination: AnyView(LazyLoadingTableView())),
+        MyNavigationItem(title: "TabView", destination: AnyView(TabReView()))
     ]
-    
-    
 }
+
 /*List {
     NavigationLink("Button Types", destination: { ButtonTypesView() })
     NavigationLink("Text & Labels", destination: { TextAndLabelsUIView() })

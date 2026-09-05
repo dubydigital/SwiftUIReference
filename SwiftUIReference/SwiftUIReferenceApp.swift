@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIReferenceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(categories: CategoriesDataModel.shared.mainCategories)
         }
     }
 }
