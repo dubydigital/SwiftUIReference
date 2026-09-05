@@ -32,6 +32,22 @@
 		CBB0739F304B50F50002D883 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB0739E304B50F50002D883 /* DetailItem.swift */; };
 		CBB073A0304B50F50002D883 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB0739E304B50F50002D883 /* DetailItem.swift */; };
 		CBB073A1304B50F50002D883 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB0739E304B50F50002D883 /* DetailItem.swift */; };
+		CBB07473304BB4E80002D883 /* LaTeXSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CBB07472304BB4E80002D883 /* LaTeXSwiftUI */; };
+		CBB0747E304BB6210002D883 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBB07478304BB6210002D883 /* readme.txt */; };
+		CBB0747F304BB6210002D883 /* pixel12x10.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBB0747B304BB6210002D883 /* pixel12x10.txt */; };
+		CBB07480304BB6210002D883 /* Pixel12x10.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB07476304BB6210002D883 /* Pixel12x10.ttf */; };
+		CBB07481304BB6210002D883 /* Driving Fast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBB07474304BB6210002D883 /* Driving Fast.mp3 */; };
+		CBB07482304BB6210002D883 /* Pixel12x10Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB07477304BB6210002D883 /* Pixel12x10Mono.ttf */; };
+		CBB07483304BB6210002D883 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBB07478304BB6210002D883 /* readme.txt */; };
+		CBB07484304BB6210002D883 /* pixel12x10.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBB0747B304BB6210002D883 /* pixel12x10.txt */; };
+		CBB07485304BB6210002D883 /* Pixel12x10.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB07476304BB6210002D883 /* Pixel12x10.ttf */; };
+		CBB07486304BB6210002D883 /* Driving Fast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBB07474304BB6210002D883 /* Driving Fast.mp3 */; };
+		CBB07487304BB6210002D883 /* Pixel12x10Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB07477304BB6210002D883 /* Pixel12x10Mono.ttf */; };
+		CBB07488304BB6210002D883 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBB07478304BB6210002D883 /* readme.txt */; };
+		CBB07489304BB6210002D883 /* pixel12x10.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBB0747B304BB6210002D883 /* pixel12x10.txt */; };
+		CBB0748A304BB6210002D883 /* Pixel12x10.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB07476304BB6210002D883 /* Pixel12x10.ttf */; };
+		CBB0748B304BB6210002D883 /* Driving Fast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBB07474304BB6210002D883 /* Driving Fast.mp3 */; };
+		CBB0748C304BB6210002D883 /* Pixel12x10Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB07477304BB6210002D883 /* Pixel12x10Mono.ttf */; };
 		CBC920422CC9E69500BF20EE /* SwiftUIReferenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC920412CC9E69500BF20EE /* SwiftUIReferenceApp.swift */; };
 		CBC920442CC9E69500BF20EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC920432CC9E69500BF20EE /* ContentView.swift */; };
 		CBC920462CC9E69600BF20EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC920452CC9E69600BF20EE /* Assets.xcassets */; };
@@ -95,6 +111,12 @@
 		CBB073213047D36C0002D883 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		CBB073253047D5A50002D883 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		CBB0739E304B50F50002D883 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
+		CBB07474304BB6210002D883 /* Driving Fast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Driving Fast.mp3"; sourceTree = "<group>"; };
+		CBB07476304BB6210002D883 /* Pixel12x10.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixel12x10.ttf; sourceTree = "<group>"; };
+		CBB07477304BB6210002D883 /* Pixel12x10Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixel12x10Mono.ttf; sourceTree = "<group>"; };
+		CBB07478304BB6210002D883 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		CBB0747B304BB6210002D883 /* pixel12x10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pixel12x10.txt; sourceTree = "<group>"; };
+		CBB0748D304BB82C0002D883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CBC9203E2CC9E69500BF20EE /* SwiftUIReference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIReference.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC920412CC9E69500BF20EE /* SwiftUIReferenceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIReferenceApp.swift; sourceTree = "<group>"; };
 		CBC920432CC9E69500BF20EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -251,6 +273,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB07473304BB4E80002D883 /* LaTeXSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +322,8 @@
 		CBB073173047C9990002D883 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				CBB073AF304BB2100002D883 /* Video */,
+				CBB073AE304BB20A0002D883 /* Audio */,
 				CBB07329304921CF0002D883 /* Network */,
 				CBB073183047C9C40002D883 /* View */,
 				CBB072A8303950620002D883 /* Extensions & Modifiers */,
@@ -307,6 +332,7 @@
 				CBB07200303946010002D883 /* ListCollections */,
 				CBB071D23039458B0002D883 /* Navigation */,
 				CBDD0A7C2D50F42400756725 /* UIKit */,
+				CBB0739D304B3C5D0002D883 /* CustomComponents */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -314,7 +340,6 @@
 		CBB073183047C9C40002D883 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CBB0739D304B3C5D0002D883 /* CustomComponents */,
 				CBDD0A872D5110C000756725 /* Accessibility */,
 				CBDD0A3A2D4EBCE200756725 /* Alerts */,
 				CBB0722B303947C20002D883 /* Buttons */,
@@ -323,6 +348,64 @@
 				CBB072A230394DE50002D883 /* Images */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CBB073AE304BB20A0002D883 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		CBB073AF304BB2100002D883 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		CBB07475304BB6210002D883 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CBB07474304BB6210002D883 /* Driving Fast.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		CBB07479304BB6210002D883 /* Pixel12x10 */ = {
+			isa = PBXGroup;
+			children = (
+				CBB07476304BB6210002D883 /* Pixel12x10.ttf */,
+				CBB07477304BB6210002D883 /* Pixel12x10Mono.ttf */,
+				CBB07478304BB6210002D883 /* readme.txt */,
+			);
+			path = Pixel12x10;
+			sourceTree = "<group>";
+		};
+		CBB0747A304BB6210002D883 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CBB07479304BB6210002D883 /* Pixel12x10 */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CBB0747C304BB6210002D883 /* Licences */ = {
+			isa = PBXGroup;
+			children = (
+				CBB0747B304BB6210002D883 /* pixel12x10.txt */,
+			);
+			path = Licences;
+			sourceTree = "<group>";
+		};
+		CBB0747D304BB6210002D883 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBB07475304BB6210002D883 /* Audio */,
+				CBB0747A304BB6210002D883 /* Font */,
+				CBB0747C304BB6210002D883 /* Licences */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		CBC920352CC9E69500BF20EE = {
@@ -348,6 +431,8 @@
 		CBC920402CC9E69500BF20EE /* SwiftUIReference */ = {
 			isa = PBXGroup;
 			children = (
+				CBB0748D304BB82C0002D883 /* Info.plist */,
+				CBB0747D304BB6210002D883 /* Resources */,
 				CBB071CD303944210002D883 /* ReferenceComponents */,
 				CBB073173047C9990002D883 /* Categories */,
 				CBB073163047C98A0002D883 /* Model */,
@@ -571,6 +656,9 @@
 				Base,
 			);
 			mainGroup = CBC920352CC9E69500BF20EE;
+			packageReferences = (
+				CBB07471304BB4E80002D883 /* XCRemoteSwiftPackageReference "LaTeXSwiftUI" */,
+			);
 			productRefGroup = CBC9203F2CC9E69500BF20EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -589,6 +677,11 @@
 			files = (
 				CBC920492CC9E69600BF20EE /* Preview Assets.xcassets in Resources */,
 				CBC920462CC9E69600BF20EE /* Assets.xcassets in Resources */,
+				CBB07488304BB6210002D883 /* readme.txt in Resources */,
+				CBB07489304BB6210002D883 /* pixel12x10.txt in Resources */,
+				CBB0748A304BB6210002D883 /* Pixel12x10.ttf in Resources */,
+				CBB0748B304BB6210002D883 /* Driving Fast.mp3 in Resources */,
+				CBB0748C304BB6210002D883 /* Pixel12x10Mono.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +689,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB0747E304BB6210002D883 /* readme.txt in Resources */,
+				CBB0747F304BB6210002D883 /* pixel12x10.txt in Resources */,
+				CBB07480304BB6210002D883 /* Pixel12x10.ttf in Resources */,
+				CBB07481304BB6210002D883 /* Driving Fast.mp3 in Resources */,
+				CBB07482304BB6210002D883 /* Pixel12x10Mono.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +701,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB07483304BB6210002D883 /* readme.txt in Resources */,
+				CBB07484304BB6210002D883 /* pixel12x10.txt in Resources */,
+				CBB07485304BB6210002D883 /* Pixel12x10.ttf in Resources */,
+				CBB07486304BB6210002D883 /* Driving Fast.mp3 in Resources */,
+				CBB07487304BB6210002D883 /* Pixel12x10Mono.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,6 +939,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIReference/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIReference/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -865,6 +969,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIReference/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIReference/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -992,6 +1097,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CBB07471304BB4E80002D883 /* XCRemoteSwiftPackageReference "LaTeXSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/colinc86/LaTeXSwiftUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBB07472304BB4E80002D883 /* LaTeXSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBB07471304BB4E80002D883 /* XCRemoteSwiftPackageReference "LaTeXSwiftUI" */;
+			productName = LaTeXSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CBC920362CC9E69500BF20EE /* Project object */;
 }

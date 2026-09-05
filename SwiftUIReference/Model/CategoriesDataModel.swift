@@ -46,7 +46,8 @@ enum NestedViewType: Hashable {
     // UIKit
     case lazyLoadingTableView
     case simpleContainerView
-        
+    // Custom Components
+    case componentTypeWriter
     // ... Imagine 47 more cases here
     
     // The @ViewBuilder attribute allows you to return different types of views natively
@@ -102,12 +103,19 @@ enum NestedViewType: Hashable {
         // UIKit
         case .lazyLoadingTableView: LazyLoadingTableView()
         case .simpleContainerView: SimpleContainerUIView()
+        // Custom Components
+        case .componentTypeWriter: TypeWriterRefView()
             
         }
     }
 }
 
 final class CategoriesDataModel {
+    
+    let dummyText:String = """
+From the Halls of Montezuma. To the shores of Tripoli; We fight our country’s battles. In the air, on land, and sea; First to fight for right and freedom. And to keep our honor clean; We are proud to claim the title Of United States Marine.        
+"""
+    
     static let shared = CategoriesDataModel()
     private init() {}
     
@@ -183,7 +191,12 @@ final class CategoriesDataModel {
                        showFullScreenSheet: true )
         ]),
         Category(name: "UIKit", systemImage: "uiwindow.split.2x1", subcategories:  [], items: []),
-        Category(name: "Custom Components", systemImage: "books.vertical", subcategories:  [], items: []),
+        Category(name: "Custom Components", systemImage: "books.vertical", subcategories:  [], items: [
+            DetailItem(title: "TypeWriter View",
+                       description: "TypeWriter View",
+                       systemImage: "character.text.justify",
+                       nestedView: .componentTypeWriter )
+        ]),
         Category(name: "Cool Features", systemImage: "sparkles", subcategories: [], items: []),
     ]
     
